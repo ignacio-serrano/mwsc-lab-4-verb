@@ -1,0 +1,53 @@
+{
+	"variables": [],
+	"info": {
+		"name": "mwsc-lab-4-verb",
+		"_postman_id": "7d75c831-db10-308d-789f-580f91b7427f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "verb-root",
+			"request": {
+				"url": "http://localhost:{{verb.port}}/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "HEADER.APPLICATIONID",
+						"value": "SoapUI",
+						"description": ""
+					},
+					{
+						"key": "HEADER.TRACKING_ID",
+						"value": "SOA-Calling-MS/e2e/TS4/TC5/S1",
+						"description": ""
+					},
+					{
+						"key": "HEADER.SERVICE_CHANNEL",
+						"value": "UK",
+						"description": ""
+					},
+					{
+						"key": "HEADER.SERVICE_LANGUAGE",
+						"value": "EN",
+						"description": ""
+					},
+					{
+						"key": "HEADER.SERVICE_PROCEDENCE",
+						"value": "BRANCH",
+						"description": ""
+					},
+					{
+						"key": "HEADER.SERVICE_COUNTRY",
+						"value": "UK",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
